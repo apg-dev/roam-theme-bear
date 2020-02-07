@@ -2,7 +2,7 @@
 
 A custom hack Roam theme (for Chrome) inspired by the Bear note-taking app.
 
-There are only 13 lines that have changed - see comments in css. You may want to adjust "changed" lines based on your screen size, font, and font size preferences.
+There are only 13 lines that have changed - see numbered comments in css. You may want to adjust "changed" lines based on your screen size, font, and font size preferences.
 
 
 Installation notes below.
