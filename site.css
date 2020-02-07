@@ -1317,7 +1317,7 @@ body {
   display: flex;
   height: 13px;
   width: 13px;
-  margin-top: 3px;
+  margin-top: 6.3px; /* (10b) change: center bullet to match font sizing */
   border-radius: 50%;
   justify-content: center;
   align-items: center;
