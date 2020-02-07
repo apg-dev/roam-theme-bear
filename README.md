@@ -26,7 +26,7 @@ Installation notes below.
 
 ## Usage
 
-* Changes will persist through browser refresh
+* Changes will persist through browser refresh (may need to simply F12 > Refresh to pull in styling)
 * When opening a new tab, F12 > Refresh page will load up styling
 * To make any additional css changes, simply edit site.css, save, then refresh Roam page
 * To remove this custom hack (and go back to Roam default), F12 > Sources > Overrides > Right-click folder > Remove folder form workspace > Refresh page
