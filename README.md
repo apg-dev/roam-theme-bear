@@ -7,7 +7,7 @@ There are only 13 lines that have changed - see numbered comments in css. You ma
 
 Installation notes below.
 
-![roam bear theme screenshot](https://raw.githubusercontent.com/apg-dev/roam-theme-bear/master/roam-bear-theme.png)
+![roam bear theme screenshot](https://raw.githubusercontent.com/apg-dev/roam-theme-bear/master/roam-bear-theme-v2.png)
 
 
 ## Installation
