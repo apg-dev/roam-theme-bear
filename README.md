@@ -2,7 +2,7 @@
 
 A custom hack Roam theme (for Chrome) inspired by the Bear note-taking app.
 
-There are only xx lines that have changed - see comments in css. You may want to adjust "changed" lines based on your screen size, font, and font size preferences.
+There are only 13 lines that have changed - see comments in css. You may want to adjust "changed" lines based on your screen size, font, and font size preferences.
 
 
 Installation notes below.
@@ -18,7 +18,7 @@ Installation notes below.
 * Select folder for overrides > Choose the new folder (e.g. Roam-css)
 * Allow (when prompted "DevTools requests full access to ...")
 * Go into Elements tab and change any item (e.g. body > font-size: 15px)
-* Page flicker may - just refresh the page
+* Page may flicker - just refresh the page
 * You now have a new folder in Roam-css
 * Go into that new folder: roamresearch.com/assets/css/less-compile
 * Replace the site.css file with the site.css file you downloaded from git
@@ -28,7 +28,7 @@ Installation notes below.
 
 * Changes will persist through browser refresh
 * When opening a new tab, F12 > Refresh page will load up styling
-* To make any additional css changes, simply edit site.css file and refresh Roam page
+* To make any additional css changes, simply edit site.css, save, then refresh Roam page
 * To remove this custom hack (and go back to Roam default), F12 > Sources > Overrides > Right-click folder > Remove folder form workspace > Refresh page
 
 
