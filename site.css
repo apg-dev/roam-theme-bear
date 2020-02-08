@@ -529,7 +529,7 @@ body {
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background-color: #f9f9f9; /* (1) new: bear color */
+  background-color: #f9f9f9; /* RTB add: bear color */
 }
 .roam-body .roam-app {
   height: 100%;
@@ -618,8 +618,8 @@ body {
 .roam-body .roam-app .roam-main .roam-article {
   position: relative;
   padding: 16px 42px 120px;
-  font-size: 20px; /* (2) new: larger font */
-  color: #222222; /* (3) new: roam color */
+  font-size: 20px; /* RTB add: larger font */
+  color: #222222; /* RTB add: roam color */
 }
 .roam-body .roam-app .roam-main .roam-article .rm-title-display {
   margin-bottom: 32px;
@@ -644,7 +644,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 101;
-  background-color: #f9f9f9; /* (4) change: bear background */
+  background-color: #f9f9f9; /* RTB change: bear background */
   padding-right: 16px;
   padding-left: 16px;
   display: flex;
@@ -885,11 +885,11 @@ body {
 .rm-block-ref {
   padding: 4px 2px;
   margin: -4px 0px;
-  font-size: 20px; /* (5) change: block ref's same size as others */
+  font-size: 20px; /* RTB change: block ref's same size as others */
   display: inline;
   border-bottom: 1px solid #ced9e0; 
   cursor: alias;
-  padding-left: 0px; /* (6) new: align to left */
+  padding-left: 0px; /* RTB add: align to left */
 }
 .rm-block-ref:hover {
   background-color: #f5f8fa;
@@ -902,7 +902,7 @@ body {
 .check-container {
   display: inline-block;
   position: relative;
-  padding-left: 16px; /* (7) change: align checkbox for updated spacing */
+  padding-left: 16px; /* RTB change: align checkbox for updated spacing */
   margin-bottom: 10px;
   cursor: pointer;
   font-size: 22px;
@@ -911,7 +911,7 @@ body {
   -ms-user-select: none;
   user-select: none;
   vertical-align: bottom;
-  top: -12px; /* (8) change: align checkbox for updated spacing */
+  top: -12px; /* RTB change: align checkbox for updated spacing */
 }
 /* Hide the browser's default checkbox */
 .check-container input {
@@ -1043,7 +1043,7 @@ body {
   padding-right: 8px;
 }
 .rm-level1 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Avenir Next'; /* RTB change */
   font-weight: 400;
   font-size: 1.8em;
 }
@@ -1052,17 +1052,30 @@ body {
 }
 .rm-level1 .roam-block {
   line-height: 1.2;
+  margin-top: -8px; /* RTB add */
 }
 .rm-level2 {
-  font-family: 'Inter', sans-serif !important;
+  font-family: 'Avenir Next' !important; /* RTB change */
   font-weight: 400;
   font-size: 1.4em;
 }
+
+/* RTB new section */
+.rm-level2 .roam-block {
+	margin-top: -8px;  
+}
+
 .rm-level3 {
   font-weight: 500;
   font-size: 1.2em;
   color: #5c7080;
 }
+
+/* RTB new section */
+.rm-level3 .roam-block {
+	margin-top: -5px;
+}
+
 .rm-title1 {
   word-break: break-word;
   font-weight: 400;
@@ -1266,7 +1279,7 @@ body {
   box-sizing: border-box;
 }
 .rm-block-text {
-  max-width: 700px; /* (9) change: desired section width */
+  max-width: 700px; /* RTB change: desired section width */
 }
 .rm-block-input {
   line-height: 1.5em;
@@ -1317,7 +1330,7 @@ body {
   display: flex;
   height: 13px;
   width: 13px;
-  margin-top: 6.3px; /* (10b) change: center bullet to match font sizing */
+  margin-top: 6.3px; /* RTB change: center bullet to match font sizing */
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -1326,7 +1339,7 @@ body {
   border-radius: 50%;
   width: 5px;
   height: 5px;
-  background-color: #3d76bf; /* (10) change: blue bullet */
+  background-color: #3d76bf; /* RTB change: blue bullet */
 }
 .version-bullet {
   background-color: #a7b6c2;
@@ -1409,7 +1422,7 @@ body {
 .flex-h-box {
   display: flex;
   flex: 0 0 auto;
-  padding-bottom: 10px; /* (11) new: a little extra space between bullets */
+  padding-bottom: 10px; /* RTB add: a little extra space between bullets */
 }
 .flex-align-start {
   align-items: flex-start;
@@ -1465,14 +1478,14 @@ body {
   padding: 0;
 }
 div {
-  font-family: 'Avenir Next'; /* (12) change: desired font (bear) */
+  font-family: 'Avenir Next'; /* RTB change: desired font (bear) */
   font-size: 1em;
   line-height: 1.5em;
   margin: 0px;
   padding: 0px;
 }
 textarea {
-  font-family: 'Avenir Next'; /* (13) change: desired font (bear) */
+  font-family: 'Avenir Next'; /* RTB change: desired font (bear) */
   font-size: 1em;
   line-height: 1.5em;
   margin: 0px;
@@ -1527,4 +1540,22 @@ textarea {
   /* Internet Explorer/Edge */
   user-select: none;
   /* Non-prefixed version, currently */
+}
+
+/* RTB additions below */
+
+#roam-right-sidebar-content span.simple-bullet-outer.cursor-grab {
+	margin-top: 3px;
+}
+
+#roam-right-sidebar-content .rm-level1 .roam-block {
+	margin-top: -5px;
+}
+
+#roam-right-sidebar-content .rm-level2 .roam-block {
+	margin-top: -5px;
+}
+
+#roam-right-sidebar-content .rm-level3 .roam-block {
+	margin-top: -3px;
 }
