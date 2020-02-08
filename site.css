@@ -1548,6 +1548,10 @@ textarea {
 	margin-top: 3px;
 }
 
+#roam-right-sidebar-content .block-bullet-view .simple-bullet-outer {
+  margin-top: 3px;
+}
+
 #roam-right-sidebar-content .rm-level1 .roam-block {
 	margin-top: -5px;
 }
