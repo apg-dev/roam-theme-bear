@@ -1563,3 +1563,12 @@ textarea {
 #roam-right-sidebar-content .rm-level3 .roam-block {
 	margin-top: -3px;
 }
+
+#roam-right-sidebar-content {
+  font-size: 16px;
+}
+
+#roam-right-sidebar-content .rm-block-ref {
+  font-size: 16px;
+  color: #137CBD;
+}
