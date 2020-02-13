@@ -1248,7 +1248,7 @@ body {
   margin-left: 5px;
 }
 .block-border-left {
-  border-left: 1px solid #bfccd6;
+  /* border-left: 1px solid #bfccd6; RTB: Remove left-side vertical lines */
 }
 .text-align-left {
   text-align: left;
