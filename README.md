@@ -1,9 +1,6 @@
 # Bear-like CSS for Roam (Chrome)
 
-A custom hack Roam theme (for Chrome) inspired by the Bear note-taking app.
-
-There are only 13 lines that have changed - see numbered comments in css. You may want to adjust "changed" lines based on your screen size, font, and font size preferences.
-
+A Roam theme (for Chrome) inspired by the Bear note-taking app.
 
 Installation notes below.
 
@@ -29,15 +26,13 @@ Installation notes below.
 * Changes will persist through browser refresh (may need to simply F12 > Refresh to pull in styling)
 * When opening a new tab, F12 > Refresh page will load up styling
 * To make any additional css changes, simply edit site.css, save, then refresh Roam page
-* To remove this custom hack (and go back to Roam default), F12 > Sources > Overrides > Right-click folder > Remove folder form workspace > Refresh page
+* To remove this theme (and go back to Roam default), F12 > Sources > Overrides > Right-click folder > Remove folder form workspace > Refresh page
 
 
 
 ## Other Notes
 
-* Obviously whenever Roam makes an update to their site.css, my hacked site.css file would need to be updated accordingly.
-* Likewise if Roam changes the directory structure of their CSS
-* If you don't have Avenir Next fonts local on your machine, you'll need to add an import line or change the two Avenir Next references to a local font you prefer.
+* If you don't have Avenir Next fonts local on your machine, you'll need to add an import line or change the Avenir Next references to a local font you prefer.
 
 
 ---
