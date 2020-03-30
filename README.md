@@ -19,6 +19,7 @@ Installation notes below.
 * You now have a new folder in Roam-css
 * Go into that new folder: roamresearch.com/assets/css/less-compile
 * Replace the site.css file with the site.css file you downloaded from git
+* If you prefer Bear's "red graphite" theme instead of "high contrast", then replace site.css with site - red graphite.css
 * Refresh Roam page 
 
 ## Usage
