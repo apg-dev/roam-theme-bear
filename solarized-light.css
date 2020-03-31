@@ -1569,8 +1569,8 @@ textarea {
 }
 
 #roam-right-sidebar-content .rm-block-ref {
-  font-size: 16px;
-  color: #9d6500; /* solarized light color */
+  font-size: 14px; /* make block ref in side-bar a little smaller to show that's it's a reference */
+  /* color: #9d6500; Don't change color of full block ref in sidebar */
 }
 
 a {
@@ -1578,6 +1578,8 @@ a {
 }
 
 /*
+
+Popup menu when typing / below
 
 .bp3-elevation-3 {
 	background-color: navajowhite !important;
