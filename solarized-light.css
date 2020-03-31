@@ -1590,3 +1590,13 @@ Popup menu when typing / below
 }
 
 */
+
+#right-sidebar {
+  background-color: rgb(247, 249, 251) !important; /* nicer light gray color */
+}
+
+/* target block embeds on main page and in sidebar */
+div[id^='block-input-'] > span > div {
+  background-color: #acb0e830 !important; 
+}
+
