@@ -1569,6 +1569,6 @@ textarea {
 }
 
 #roam-right-sidebar-content .rm-block-ref {
-  font-size: 16px;
-  color: #137CBD;
+  font-size: 14px; /* make block ref in side-bar a little smaller to show that's it's a reference */
+  /* color: #137CBD; Don't change color of full block ref */
 }
