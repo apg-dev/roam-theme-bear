@@ -4,6 +4,9 @@ A Roam theme (for Chrome) inspired by the Bear note-taking app.
 
 Installation notes below.
 
+Also, be sure to checkout this highly-customizable themes by @vandermerwed
+https://raw.githubusercontent.com/vandermerwed/Roam-Research-Dark/master/roam-research-dark.user.css
+
 ![roam bear theme screenshot](https://raw.githubusercontent.com/apg-dev/roam-theme-bear/master/roam-bear-theme-v2.png)
 
 
